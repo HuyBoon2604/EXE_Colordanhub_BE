@@ -135,7 +135,7 @@ if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
     app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "Booking Dance API v1");
-        /*options.RoutePrefix = string.Empty;*/ // Show Swagger UI at the root URL
+        options.RoutePrefix = string.Empty; // Show Swagger UI at the root URL
     });
 
     app.UseExceptionHandler("/Error");
