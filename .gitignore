@@ -14,4 +14,8 @@ obj/
 Thumbs.dbobj/
 
 *.json
+# Bỏ qua file chứa credentials
+Booking_Dance_Project_API/cursusprojectinternship-62f5e39c9095.json
+Booking_Dance_Project_API/appsettings.json
+.env
 
