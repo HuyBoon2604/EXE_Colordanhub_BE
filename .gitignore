@@ -1,0 +1,28 @@
+# Ignore Visual Studio files and directories
+.vs/
+
+# Ignore other temporary files and build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+Booking_Dance_Project_API/cursusprojectinternship-*.json
+Booking_Dance_Project_API/appsettings.json\
+
+
+# Ignore Visual Studio files
+.vs/
+*.csproj.user
+
+# Ignore build files
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Ignore other system-specific files
+.DS_Store
+Thumbs.dbobj/
